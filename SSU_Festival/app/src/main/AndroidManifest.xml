@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.junsikchoi.ssu_festival">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="feSSUtival"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AmPage"
+            android:label="   주간" />
+        <activity android:name=".storeDetail" />
+        <activity
+            android:name=".NumberCurrentForStore"
+            android:label="번호표 현황" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".NumberCurrentForUser"
+            android:label="번호표 현황" />
+        <activity
+            android:name=".PmPage"
+            android:label="   야간" />
+        <activity android:name=".ShowDetail" />
+        <activity android:name=".ShowMainFragment" />
+        <activity
+            android:name=".NoticePage"
+            android:label="공지사항" />
+        <activity android:name=".Qna"></activity>
+    </application>
+
+</manifest>

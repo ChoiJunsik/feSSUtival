@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186583509272",
+    "firebase_url": "https://ssufestival-c8b8b.firebaseio.com",
+    "project_id": "ssufestival-c8b8b",
+    "storage_bucket": "ssufestival-c8b8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186583509272:android:900865406fc9dcbe",
+        "android_client_info": {
+          "package_name": "com.example.junsikchoi.ssu_festival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186583509272-328p2kvvou2mr5ovi5nas03438k7gsan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.junsikchoi.ssu_festival",
+            "certificate_hash": "503de8eec7e78e4400c1da09c84c0d50fee1ffb6"
+          }
+        },
+        {
+          "client_id": "186583509272-0vtqjcge8cpb7b68us3kfrgu8u82et55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ALBVyS3E8dQ5ZHmzRLeEHOxDaDDbv1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186583509272-0vtqjcge8cpb7b68us3kfrgu8u82et55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ampm_item_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/testitem"
+        />
+
+    <TextView
+        android:id="@+id/ampm_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="소프트주점"
+        android:fontFamily="@font/hanna"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/ampm_item_img"
+        />
+
+    <TextView
+        android:id="@+id/ampm_item_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="요구르트 소주"
+        android:fontFamily="@font/hanna"
+        android:layout_below="@id/ampm_item_name"
+        android:layout_alignLeft="@id/ampm_item_name"/>
+
+    <ImageView
+        android:id="@+id/ampm_item_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
